@@ -8,8 +8,8 @@ img = cv2.imread('/Users/jflaney23/Developer/OpenCV Project/assets/Screen Shot 2
 hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 
 #ranges of blue in HSV
-#Lightest HSV hsv(192, 11%, 89%)
-#Darkest HSV hsv(192, 43%, 83%)
+#Lightest HSV hsv(85, 40, 40)
+#Darkest HSV hsv(100,255,255)
 
 
 mask = cv2.inRange(hsv, (85, 40, 40), (100,255,255))
