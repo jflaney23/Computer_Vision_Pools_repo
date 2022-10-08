@@ -1,6 +1,6 @@
 import numpy as np
 import cv2
-import numpy as np
+
 
 img = cv2.imread('/Users/jflaney23/Developer/OpenCV Project/assets/Screen Shot 2022-10-08 at 12.02.13 PM.png')
 
