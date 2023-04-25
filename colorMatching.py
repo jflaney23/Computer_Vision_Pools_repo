@@ -10,7 +10,7 @@ hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 #ranges of blue in HSV
 #Lightest HSV hsv(85, 40, 40)
 #Darkest HSV hsv(100,255,255)
-
+  
 
 mask = cv2.inRange(hsv, (85, 40, 40), (100,255,255))
  
